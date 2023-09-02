@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: white;
 }
 
 body {
-    background: rgb(255, 255, 255);
-    font-family: Arial, sans-serif;
+    background: url("img/bg.png");
 }
 
 .container {
@@ -33,9 +34,9 @@ body {
     width: 60%;
 }
 
-.login input {
-    color: black;
+.form-control {
     background: transparent;
+    color: black;
     border: 0;
     position: relative;
     margin: auto;
@@ -62,12 +63,17 @@ body {
 
 .key {
     background: white;
+    color: black;
     width: 100%;
     padding: 10px;
     font-size: 30px;
     text-align: center;
     cursor: pointer;
     border: 0;
+}
+
+.num {
+    position: relative;
 }
 
 .key:hover {
