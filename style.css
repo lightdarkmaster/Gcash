@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.login {
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+    padding: 5px;
+}
+
+.login img {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    width: 50%;
+}
+
+.login input {
+    background: transparent;
+    border: 0;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    border: 0;
+    width: 50%;
+    padding: 10px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.center {
+    grid-column: span 2;
+    /* Span two columns to center the "0" button */
+}
+
+.key {
+    background: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+}
+
+.key:hover {
+    background-color: #2f9affeb;
+    color: #fff;
+}
+
+.bottom-left-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+}
