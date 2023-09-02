@@ -18,6 +18,7 @@ body {
 }
 
 .login {
+    color: white;
     position: relative;
     background: url("img/mov.gif");
     top: 40px;
@@ -73,7 +74,7 @@ body {
 }
 
 .num {
-    background: rgb(0, 0, 255);
+    background: rgb(0, 0, 156);
     border-radius: 30px;
     font-weight: 600;
     color: white;
