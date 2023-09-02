@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    color: white;
 }
 
 body {
-    background: url("img/bg.png");
+    background: white;
 }
 
 .container {
