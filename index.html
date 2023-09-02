@@ -31,21 +31,29 @@
                         <input type="password" class="form-control" id="password1">
                     </div>
                     <div class="keypad">
-                        <button class="key">1</button>
-                        <button class="key">2</button>
-                        <button class="key">3</button>
-                        <button class="key">4</button>
-                        <button class="key">5</button>
-                        <button class="key">6</button>
-                        <button class="key">7</button>
-                        <button class="key">8</button>
-                        <button class="key">9</button>
+                        <button class="key" onclick="addToTextField('1')">1</button>
+                        <button class="key" onclick="addToTextField('2')">2</button>
+                        <button class="key" onclick="addToTextField('3')">3</button>
+                        <button class="key" onclick="addToTextField('4')">4</button>
+                        <button class="key" onclick="addToTextField('5')">5</button>
+                        <button class="key" onclick="addToTextField('6')">6</button>
+                        <button class="key" onclick="addToTextField('7')">7</button>
+                        <button class="key" onclick="addToTextField('8')">8</button>
+                        <button class="key" onclick="addToTextField('9')">9</button>
                         <button class="key">&nbsp;</button>
-                        <button class="key">0</button>
+                        <button class="key" onclick="addToTextField('0')">0</button>
                     </div>
+                </div>
             </form>
-            </div>
         </div>
+    </div>
+
+    <script>
+        function addToTextField(value) {
+            var textField = document.getElementById('password1');
+            textField.value += value;
+        }
+    </script>
 </body>
 
 </html>

@@ -34,6 +34,7 @@ body {
 }
 
 .login input {
+    color: black;
     background: transparent;
     border: 0;
     position: relative;
