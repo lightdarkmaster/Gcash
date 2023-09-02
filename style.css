@@ -6,7 +6,8 @@
 }
 
 body {
-    background: white;
+    background: url("img/bg3.png");
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -77,6 +78,7 @@ body {
     font-weight: 600;
     color: white;
     position: relative;
+    top: 10px;
     text-align: center;
     justify-content: center;
     padding: 5px;
