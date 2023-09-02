@@ -6,7 +6,7 @@
 }
 
 body {
-    background: blue;
+    background: white;
     background-repeat: no-repeat;
     color: white;
 }
@@ -58,6 +58,7 @@ body {
     margin: 0 auto;
     background-color: #fff;
     border-radius: 20px;
+    box-shadow: 2px 3px 2px 3px rgba(128, 128, 128, 0.364);
 }
 
 .center {
