@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("img/bg3.png");
+    background: url("img/mov.gif");
     background-repeat: no-repeat;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .num {
-    background: rgba(0, 0, 255, 0.745);
+    background: rgb(0, 0, 255);
     border-radius: 30px;
     font-weight: 600;
     color: white;
